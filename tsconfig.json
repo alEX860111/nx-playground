@@ -15,7 +15,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@myworkspace/product/product-list": [
+        "libs/product/product-list/src/index.ts"
+      ],
+      "@myworkspace/products": ["libs/products/src/index.ts"],
+      "@myworkspace/catalog/feature-browse-products": [
+        "libs/catalog/feature-browse-products/src/index.ts"
+      ],
+      "@myworkspace/catalog/data-access": [
+        "libs/catalog/data-access/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

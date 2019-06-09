@@ -7,5 +7,24 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "myapp-e2e": {
+      "tags": []
+    },
+    "myapp": {
+      "tags": ["scope:app"]
+    },
+    "product-product-list": {
+      "tags": ["scope:product", "type:feature"]
+    },
+    "products": {
+      "tags": ["scope:products", "type:feature"]
+    },
+    "catalog-feature-browse-products": {
+      "tags": ["scope:catalog", "type:feature"]
+    },
+    "catalog-data-access": {
+      "tags": ["scope:catalog", "type:data-access"]
+    }
+  }
 }
